@@ -63,24 +63,38 @@ img { border: 0; }
 .buttons a{
 	display: block;
 	position: absolute;
-	width: 180px;
-	height: 75px;
+	width: 200px;
+	height: 100px;
 	margin: 5px;
-	background: #808080;
+    background-image:url(''); ;
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	border: 5px outset #909090;
 	left: 225px;
 	top: 176px;
 } 
-.buttons a:hover { background: #A0A0A0; border-color: #ffffff} 
-#button-left {left: 15px; top: 0px;} 
+.buttons a:hover{
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	margin: 5px;
+    background-image:url('../../img/title2/button_h.png'); ;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	left: 225px;
+	top: 176px;
+}
+#button-left {left: 15px; top: 0px; background-image: url('../../img/title2/button.png');} 
+#button-left:hover {left: 15px; top: 0px; background-image:url('../../img/title2/button_h.png'); }
 #button-left span.lev1 {background-image: url('../../img/title2/doublebutton_create.gif');} 
 #button-right {
 	right: 15px;
 	top: 1px;
+    background-image: url('../../img/title2/button.png');
 } 
+#button-right:hover {left: 15px; top: 1px; background-image:url('../../img/title2/button_h.png'); }
 #button-right span.lev1 { background-image: url('../../img/title2/doublebutton_play.gif');} 
 #button-left span.beta {background-image: url('../../img/title2/doublebutton_beta.gif');} 
 span.lev1,span.beta {
