@@ -89,11 +89,7 @@ img { border: 0; }
 #button-left {left: 15px; top: 0px; background-image: url('../../img/title2/button.png');} 
 #button-left:hover {left: 15px; top: 0px; background-image:url('../../img/title2/button_h.png'); }
 #button-left span.lev1 {background-image: url('../../img/title2/doublebutton_create.gif');} 
-#button-right {
-	right: 15px;
-	top: 1px;
-    background-image: url('../../img/title2/button.png');
-} 
+#button-right {right: 15px;	top: 1px; background-image: url('../../img/title2/button.png');} 
 #button-right:hover {left: 15px; top: 1px; background-image:url('../../img/title2/button_h.png'); }
 #button-right span.lev1 { background-image: url('../../img/title2/doublebutton_play.gif');} 
 #button-left span.beta {background-image: url('../../img/title2/doublebutton_beta.gif');} 
